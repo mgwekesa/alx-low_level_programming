@@ -1,10 +1,9 @@
 /*
-* this program prints 'Programming is like building a 
-* multilingual puzzle' on the screen
+* prints '"Programming is like building a multilingual puzzle' on thescreen
 */
 #include <stdio.h>
 /*
-* main function - entry point
+* main - entry point
 * return: always 0 when the program runs successfully
 */
 int main(void)
