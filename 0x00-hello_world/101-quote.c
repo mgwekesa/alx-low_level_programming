@@ -1,6 +1,6 @@
 /*
 * prints exactly 'and that piece of art is useful" - Dora Korpar, 2015-10-19' fo
-* llowed by a new line, to the standard error
+* llowed by a new line, to the standard error 
 */
 #include <stdio.h>
 #include <stdlib.h>
