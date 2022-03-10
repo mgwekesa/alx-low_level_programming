@@ -1,4 +1,4 @@
-/**
+/*
 * prints '"Programming is like building a multilingual puzzle' on thescreen
 */
 #include <stdio.h>
