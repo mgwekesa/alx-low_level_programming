@@ -3,7 +3,7 @@
 */
 #include <stdio.h>
 /**
-* main: entry point 
+* main - entry point of the program 
 * Return: returns 0 when it runs successfully
 */
 int main(void)
