@@ -3,8 +3,9 @@
 */
 #include <stdio.h>
 /**
-* main - entry point of the program 
-* Return: returns 0 when it runs successfully
+* main - Entry point
+*
+* Return: Returns 0 (Success)
 */
 int main(void)
 {
