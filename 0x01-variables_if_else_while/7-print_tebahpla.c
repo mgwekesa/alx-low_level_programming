@@ -1,6 +1,5 @@
 /*
- * Prints all single digit numbers of base 10 starting from 0, followed by a
- * new line
+ * Printing the letters of alphabet in reverse using putchar and for..loop
  */
 
 #include <stdlib.h>
@@ -13,11 +12,11 @@
 
 int main(void)
 {
-	int c;
+	char c;
 
-	for (c = 0; c < 10; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(c+'0');
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
