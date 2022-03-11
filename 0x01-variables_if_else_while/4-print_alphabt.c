@@ -1,5 +1,5 @@
 /*
- * Printing the letters of alphabet using putchar and while loop
+ * Printing the letters of alphabet using putchar, if..else and for..loop
  */
 
 #include <stdlib.h>
