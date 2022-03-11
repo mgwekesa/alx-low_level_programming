@@ -1,5 +1,5 @@
 /*
- * Prints all possible combinations of single-digit numbers using for_loop and
+ * Prints all possible combinations of two-digit numbers using for_loop and
  * if..else statement
  */
 
