@@ -28,6 +28,7 @@ int main(void)
 			if (c == 98 && d == 99)
 				continue;
 			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
