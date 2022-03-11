@@ -7,6 +7,7 @@
 
 /**
  * main - Entry point
+ *
  * Return: returns 0
  */
 
