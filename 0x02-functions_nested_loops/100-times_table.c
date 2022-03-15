@@ -5,7 +5,8 @@
 #include "main.h"
 
 /**
- * times_table - a function that performs the times operation
+ * print_times_table - a function that performs the times operation
+ * @n: this is the parameter, determines size of table
  */
 
 void print_times_table(int n)
@@ -24,12 +25,13 @@ void print_times_table(int n)
 			j++;
 		}
 	}
+	else
 
 }
 
 /**
  * outputformat - formats the output appropriately
- * @n: the number dictating the format
+ * @m: the number dictating the format
  */
 
 void outputformat(int m)
@@ -51,7 +53,7 @@ void outputformat(int m)
 		_putchar(m / 10 + '0');
 		_putchar(m % 10 + '0');
 	}
-	else
+	else if (m > 100 && m <= 199)
 	{
 		_putchar(',');
 		_putchar(' ');
@@ -59,4 +61,5 @@ void outputformat(int m)
 		_putchar((m / 10) % 10 + '0');
 		_putchar(m % 10 + '0');
 	}
+	else
 }
