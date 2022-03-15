@@ -15,10 +15,10 @@ void fibonacci(void)
 	long int tmp;
 	int counter;
 
-	for (counter = 0; counter < 98; counter++)
+	for (counter = 1; counter <= 98; counter++)
 	{
 		printf("%lu", i);
-		if (counter == 97)
+		if (counter == 98)
 			continue;
 		printf(", ");
 		tmp = j;
