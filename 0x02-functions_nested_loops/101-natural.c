@@ -10,8 +10,8 @@
 
 void sum_multiple_3_or_5(void)
 {
-	int sum;
-	int counter;
+	int sum = 0;
+	int counter = 0;
 
 	while (counter < 1024)
 	{
@@ -19,7 +19,7 @@ void sum_multiple_3_or_5(void)
 		{
 			sum += counter;
 		}
-		counter ++;
+		counter++;
 	}
 
 	printf("%d", sum);
