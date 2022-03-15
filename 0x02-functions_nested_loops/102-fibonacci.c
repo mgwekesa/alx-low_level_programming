@@ -10,14 +10,14 @@
 
 void fibonacci(void)
 {
-	int i = 1;
-	int j = 2;
-	int tmp;
+	long long int i = 1;
+	long long  int j = 2;
+	long long int tmp;
 	int counter;
 
 	for (counter = 0; counter < 50; counter++)
 	{
-		printf("%d", i);
+		printf("%lu", i);
 		if (counter == 49)
 			continue;
 		printf(", ");
