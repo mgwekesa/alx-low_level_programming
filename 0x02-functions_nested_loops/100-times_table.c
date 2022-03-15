@@ -51,7 +51,7 @@ void outputformat(int m)
 		_putchar(m / 10 + '0');
 		_putchar(m % 10 + '0');
 	}
-	else if (m > 100 && m <= 199)
+	else if (m >= 100 && m <= 199)
 	{
 		_putchar(',');
 		_putchar(' ');
