@@ -22,7 +22,7 @@ void sum_multiple_3_or_5(void)
 		counter++;
 	}
 
-	printf("%d", sum);
+	printf("%d\n", sum);
 }
 
 /**
