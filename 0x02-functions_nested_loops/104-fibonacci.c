@@ -24,7 +24,7 @@ void fibonacci(void)
 	for (counter = 0; counter < 92; counter++)
 	{
 		tmp = i + j;
-		printf("%lu", i);
+		printf("%lu", tmp);
 		printf(", ");
 		i = j;
 		j = tmp;
