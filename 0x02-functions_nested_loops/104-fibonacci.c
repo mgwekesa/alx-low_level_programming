@@ -1,11 +1,11 @@
 /*
- * the program focuses on writing the first 98 Fibonacci numbers
+ * the program focuses on finding and printing the first 98 Fibonacci numbers
  */
 
 #include <stdio.h>
 
 /**
- * fibonacci - function printing the first 50 fibonacci numbers
+ * fibonacci - function printing the first 98 fibonacci numbers
  */
 
 void fibonacci(void)
