@@ -2,7 +2,7 @@
  * prints _putchar, followed by a new line
  */
 #include <unistd.h>
-#include "alx.h"
+#include "main.h"
 /**
  * main - Entry point
  * Return: returns 0
