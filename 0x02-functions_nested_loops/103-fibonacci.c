@@ -1,11 +1,12 @@
 /*
- * the program focuses on writing the first 50 Fibonacci numbers
+ * the program focuses on using Fibonacci numbers in computations
  */
 
 #include <stdio.h>
 
 /**
- * fibonacci - function printing the first 50 fibonacci numbers
+ * fibonacci - function printing sum of the even_valued terms of
+ * fibonacci numbers, up to a value of 4000000, followed by a new line
  */
 
 void fibonacci(void)
