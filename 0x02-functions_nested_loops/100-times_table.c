@@ -25,6 +25,8 @@ void print_times_table(int n)
 			j++;
 		}
 	}
+	else
+		_putchar('0');
 }
 
 /**
