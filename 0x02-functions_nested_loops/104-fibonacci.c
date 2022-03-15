@@ -10,20 +10,49 @@
 
 void fibonacci(void)
 {
-	long int i = 1;
-	long  int j = 2;
-	long int tmp;
+	unsigned long i = 0;
+	unsigned long j = 1;
+	unsigned long tmp;
 	int counter;
+	unsigned long i_half1;
+	unsigned long i_half2;
+	unsigned long j_half1;
+	unsigned long j_half2;
+	unsigned long half1;
+	unsigned long half2;
 
-	for (counter = 1; counter <= 98; counter++)
+	for (counter = 0; counter < 92; counter++)
 	{
+		tmp = i + j;
 		printf("%lu", i);
+		printf(", ");
+		i = j;
+		j = tmp;
+	}
+
+	i_half1 = i / 10000000000;
+	j_half1 = j / 10000000000;
+	i_half2 = i % 10000000000;
+	j_half2 = j % 10000000000;
+
+	for (counter = 93; counter <= 98; counter++)
+	{
+		half1 = i_half1 + j_half1;
+		half2 = i_half2 + j_half2;
+		if (half2 > 9999999999)
+		{
+			half1 += 1;
+			half2 %= 10000000000;
+		}
+		printf("%lu%lu", half1, half2);
 		if (counter == 98)
 			continue;
 		printf(", ");
-		tmp = j;
-		j = i + tmp;
-		i = tmp;
+
+		i_half1 = j_half1;
+		i_half2 = j_half2;
+		j_half1 = half1;
+		j_half2 = half2;
 	}
 	printf("\n");
 }
