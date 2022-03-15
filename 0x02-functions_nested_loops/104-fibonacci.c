@@ -12,14 +12,8 @@ void fibonacci(void)
 {
 	unsigned long i = 0;
 	unsigned long j = 1;
-	unsigned long tmp;
+	unsigned long tmp, i_half1, i_half2, j_half1, j_half2, half1, half2;
 	int counter;
-	unsigned long i_half1;
-	unsigned long i_half2;
-	unsigned long j_half1;
-	unsigned long j_half2;
-	unsigned long half1;
-	unsigned long half2;
 
 	for (counter = 0; counter < 92; counter++)
 	{
@@ -29,7 +23,6 @@ void fibonacci(void)
 		i = j;
 		j = tmp;
 	}
-
 	i_half1 = i / 10000000000;
 	j_half1 = j / 10000000000;
 	i_half2 = i % 10000000000;
