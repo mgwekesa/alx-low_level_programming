@@ -25,8 +25,6 @@ void print_times_table(int n)
 			j++;
 		}
 	}
-	else
-
 }
 
 /**
@@ -61,5 +59,4 @@ void outputformat(int m)
 		_putchar((m / 10) % 10 + '0');
 		_putchar(m % 10 + '0');
 	}
-	else
 }
