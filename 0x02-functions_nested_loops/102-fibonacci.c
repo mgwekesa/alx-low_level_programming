@@ -10,9 +10,9 @@
 
 void fibonacci(void)
 {
-	long long int i = 1;
-	long long  int j = 2;
-	long long int tmp;
+	long int i = 1;
+	long  int j = 2;
+	long int tmp;
 	int counter;
 
 	for (counter = 0; counter < 50; counter++)
