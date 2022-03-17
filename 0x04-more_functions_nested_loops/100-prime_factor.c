@@ -6,8 +6,8 @@
 
 void prime_factor(void)
 {
-	long int prime = 612852475143;
-	long int factor;
+	unsigned long prime = 612852475143;
+	unsigned long factor;
 
 	while (factor < (prime / 2))
 	{
@@ -25,8 +25,7 @@ void prime_factor(void)
 			}
 		}
 	}
-	printf("%lu", prime);
-	printf("\n");
+	printf("%lu\n", prime);
 }
 
 /**
