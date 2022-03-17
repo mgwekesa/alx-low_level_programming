@@ -25,7 +25,7 @@ void prime_factor(void)
 			}
 		}
 	}
-	printf("%lu", prime);
+	printf("%lu\n", prime);
 }
 
 /**
