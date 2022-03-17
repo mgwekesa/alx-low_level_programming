@@ -6,6 +6,7 @@
 
 /**
  * _isdigit - checking whether the input is a digit
+ * @c: the input parameter/ character
  * Return: 1 if c is digit, 0 otherwise
  */
 
