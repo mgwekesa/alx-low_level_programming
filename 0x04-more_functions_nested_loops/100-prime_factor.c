@@ -9,21 +9,10 @@ void prime_factor(void)
 	unsigned long prime = 612852475143;
 	unsigned long factor;
 
-	while (factor < (prime / 2))
+	for (factor = 3; factor < 12057; factor += 2)
 	{
-		if ((prime % 2) == 0)
-		{
-			prime /= 2;
-			continue;
-		}
-
-		for (factor = 3; factor < (prime / 2); factor += 2)
-		{
-			if ((prime % factor) == 0)
-			{
-				prime /= factor;
-			}
-		}
+		while (prime % factor == 0 && prime != factor)
+			prime /= factor;
 	}
 	printf("%lu\n", prime);
 }
