@@ -9,6 +9,7 @@
 int _strlen(char *s)
 {
 	int counter = 0;
+
 	while (s[counter] != '\0')
 		counter++;
 	return (counter);
@@ -22,6 +23,7 @@ int _strlen(char *s)
 void print_rev(char *s)
 {
 	int count = _strlen(s);
+
 	while (count >= 0)
 	{
 		_putchar(s[count]);
