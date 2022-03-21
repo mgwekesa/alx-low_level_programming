@@ -10,9 +10,12 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	char *temp = dest;
+	int i = 0;
 
-	while (*src)
-		*dest++ = *src++;
-	return (temp);
+	while (src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	return (dest);
 }
