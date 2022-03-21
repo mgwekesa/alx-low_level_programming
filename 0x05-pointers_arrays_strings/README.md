@@ -18,3 +18,16 @@ Write a function that returns the length of a string.
 
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
+3. I do not fear computers. I fear the lack of them
+
+Write a function that prints a string, followed by a new line, to stdout.
+
+    Prototype: void _puts(char *str);
+
+FYI: The standard library provides a similar function: puts. Run man puts to learn more.
+
+4. I can only go one way. I've not got a reverse gear
+
+Write a function that prints a string, in reverse, followed by a new line.
+
+    Prototype: void print_rev(char *s);
