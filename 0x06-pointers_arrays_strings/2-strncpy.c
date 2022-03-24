@@ -12,26 +12,24 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int len_src = 0;
 	int i = 0;
-	char *temp = dest;
-	char *start_src = src;
 
-	while (*src)
-	{
+	/*
+	 * here is how to find the length of a string
+	 */
+	while (src[i++])
 		len_src++;
-		src++;
-	}
 
-	len_src++;
-
-	if (n > len_src)
-		n = len_src;
-
-	src = start_src;
-
-	while (i < n)
+	/*
+	 * here is how to copy data to the beginning of dest
+	 */
+	for (i = 0; src[i] && i < n; i++)
 	{
-		*dest++ = *src++;
-		i++;
+		dest[i] = src[i];
 	}
-	return (temp);
+
+	for (i = len_src; i < n; i++)
+	{
+		dest[i] = '\0';
+	}
+	return (dest);
 }
