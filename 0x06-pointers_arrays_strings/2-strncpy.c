@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy: works exactly like strncpy
+ * _strncpy - works exactly like strncpy
  * @dest: the string to be copied to
- * @ src: the source string
+ * @src: the source string
  * @n: the length of src being copied
+ * Return: returns the pointer to the copied string
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -14,7 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 	char *temp = dest;
 	char *start_src = src;
 
-	while(*src)
+	while (*src)
 	{
 		len_src++;
 		src++;
