@@ -26,8 +26,8 @@ char *leet(char *str)
 
 		while (str[i] == 'o' || str[i] == 'O')
 		{
-	       		str[i] = 0 + '0';
-       			i++;
+			str[i] = 0 + '0';
+			i++;
 		}
 
 		while (str[i] == 't' || str[i] == 'T')
