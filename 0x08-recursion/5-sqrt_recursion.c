@@ -9,7 +9,7 @@
 
 int s_root(int n, int r)
 {
-	if ((r * r ) == n)
+	if ((r * r) == n)
 		return (r);
 	if (r == n / 2)
 		return (-1);
