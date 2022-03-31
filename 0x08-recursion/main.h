@@ -11,3 +11,7 @@ int is_prime_number(int n);
 int str_len(char *s);
 int palindrome(char *s, int len, int i);
 int is_palindrome(char *s);
+int len_with_no_wilds(char *s);
+void loc_wild(char **s);
+char *postfix_match(char *s, char *postfix);
+int wildcmp(char *s1, char *s2);
