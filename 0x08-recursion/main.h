@@ -8,3 +8,6 @@ int s_root(int n, int r);
 int _sqrt_recursion(int n);
 int is_divisible(int n, int d);
 int is_prime_number(int n);
+int str_len(char *s);
+int palindrome(char *s, int len, int i);
+int is_palindrome(char *s);
