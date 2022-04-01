@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - ENtry point for the program. Prits minimum number of coins,
+ * main - Entry point for the program. Prits minimum number of coins,
  *        to make change for the given amount of money
  * @argc: the number of command line arguments
  * @argv: an array containing the program command line arguments
