@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Entry ppint for the program. Prints the program name,
- *        followed by a new line
+ * main - Entry point for the program. Multiplies two numbers
  * @argc: the number of command line arguments
  * @argv: an array containing the program command line arguments
  * Return: returns 0 if two arguments are given, 1 otherwise

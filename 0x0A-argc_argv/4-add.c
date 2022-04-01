@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point for the program
+ * main - Entry point for the program. Adds positive numbers
  * @argc: the number of command line arguments
  * @argv: an array containing the program command line arguments
  * Return: returns 0 if arguments given are integers, 1 otherwise
