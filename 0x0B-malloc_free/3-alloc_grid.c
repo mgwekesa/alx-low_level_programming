@@ -24,7 +24,7 @@ int **alloc_grid(int width, int height)
 
 	while (h_i < height)
 	{
-		twoD[h_i] = malloc(sizeof(int *) * width);
+		twoD[h_i] = malloc(sizeof(int) * width);
 		if (twoD[h_i] == NULL)
 		{
 			while (h_i >= 0)
