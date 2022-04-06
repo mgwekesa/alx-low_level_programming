@@ -90,18 +90,13 @@ char **strtow(char *str)
 		{
 			for (; w >= 0; w--)
 				free(string[w]);
-
 			free(string);
 			return ('\0');
 		}
-
 		for (l = 0; l < letters; l++)
 			string[w][l] = str[i++];
-
 		string[w][l] = '\0';
 	}
-
 	string[w] = '\0';
-
 	return (string);
 }
