@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int s_len(char *str);
+char *create_array(int n);
+char *iterate_zero(char *str);
+int get_digit(char c);
+void product(char *prod, char *mult, int digit, int zero);
+void add_num(char *f_prod, char *n_prod, int n_len);
+
 /**
   * s_len - identifies the string length
   * @str: the string
@@ -195,7 +202,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(98);
 	}
-
 	if (*(argv[1]) == '0')
 		argv[1] = iterate_zero(argv[1]);
 	if (*(argv[2]) == '0')
@@ -205,26 +211,20 @@ int main(int argc, char **argv)
 		printf("0\n");
 		return (0);
 	}
-
 	size = s_len(argv[1]) + s_len(argv[2]);
 	f_prod = create_array(size + 1);
 	n_prod = create_array(size + 1);
-
 	i = s_len(argv[2]) - 1;
-	while (i >= 0)
+	for (; i >= 0; i--)
 	{
 		digit = get_digit(*(argv[2] + i));
 		product(n_prod, argv[1], digit, zero++);
 		add_num(f_prod, n_prod, size - 1);
-		i--;
 	}
-
-	i = 0;
-	while (f_prod[i])
+	for (i = 0; (f_prod[i]); i++)
 	{
 		if (f_prod[i] != 'x')
 			_putchar(f_prod[i]);
-		i++;
 	}
 	_putchar('\n');
 	free(n_prod);
