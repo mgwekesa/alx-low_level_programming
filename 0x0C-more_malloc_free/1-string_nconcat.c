@@ -43,12 +43,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 	}
 
-	i = 0;
-	while (s2[i] && i < n)
-	{
+	for (i = 0; s2[i] && i < n; i++)
 		nconcat[len++] = s2[i];
-		i++;
-	}
 
 	nconcat[len] = '\0';
 
