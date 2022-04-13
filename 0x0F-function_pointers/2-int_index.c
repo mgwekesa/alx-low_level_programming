@@ -7,7 +7,7 @@
   * @size: the number of elements in the array
   * @cmp: a pointer to the function to be used to compare values
   * Return: returns an index to the first element for which the cmp
-  *    	    functio does not return 0
+  *         functio does not return 0
   *         if no element matches, return -1
   *         if size <= 0, return -1
   */
