@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-  * set_bit - sets the value of a bit to 1 at a given index
+  * set_bit - prints the binary representation of a number
   * @n: pointer to the bit
   * @index: the index to get the value at, 0
   * Return: -1 in case of an error, 1 otherwise
