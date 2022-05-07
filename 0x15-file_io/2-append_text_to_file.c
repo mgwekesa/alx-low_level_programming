@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 /**
-  * append_text_t0_file - appends text to the end of a file
+  * append_text_to_file - appends text to the end of a file
   * @filename: name of the file to append to
   * @text_content: a NULL terminated string to add at the end of the file
   * Return: returns -1 on failure
